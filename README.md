@@ -4,9 +4,9 @@
 
 # Paint Studio
 
-Custom painting app I use for quick edits, thumbnails and rough concept work. It's built with PySide6 and NumPy, and the canvas gets most of the window with the brush and layer panels kept small on the side.
+Custom painting app I use for quick edits, thumbnails and rough concept work. The canvas gets most of the window, with the brush and layer panels kept small on the side.
 
-It has pressure brushes, layers and groups with blend modes, opacity, alpha lock and clipping masks, freehand selections, transforms, fill, a smart shape cleanup for rough strokes, tile-based undo, crash recovery, and editable `.paintstudio` documents with PNG export. There's also a local JSON bridge, so scripts and AI agents can read the canvas and paint strokes into it.
+It has pressure brushes, layers and groups with blend modes, opacity, alpha lock and clipping masks, freehand selections, transforms, fill, a smart shape cleanup for rough strokes, crash recovery, and editable `.paintstudio` documents with PNG export. There's also a local JSON bridge, so scripts and AI agents can read the canvas and paint strokes into it.
 
 ## Running it
 
