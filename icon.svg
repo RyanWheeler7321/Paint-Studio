@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Paint Studio icon">
+<defs>
+  <linearGradient id="blue" x1="10" y1="6" x2="118" y2="122" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#E9F6FF"/><stop offset="0.5" stop-color="#7ED4FF"/><stop offset="1" stop-color="#2E8BFF"/>
+  </linearGradient>
+  <linearGradient id="wave" x1="38" y1="0" x2="90" y2="0" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#2E8BFF"/><stop offset="1" stop-color="#B4EBFF"/>
+  </linearGradient>
+  <linearGradient id="pencil" x1="0" y1="-6" x2="0" y2="6" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#9FE3FF"/><stop offset="1" stop-color="#3C9BEF"/>
+  </linearGradient>
+  <linearGradient id="bg" x1="16" y1="8" x2="112" y2="120" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#0F1A2A"/><stop offset="1" stop-color="#090F1C"/>
+  </linearGradient>
+  <linearGradient id="rim" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+    <stop offset="0" stop-color="#7ED4FF" stop-opacity="0.55"/>
+    <stop offset="0.45" stop-color="#7ED4FF" stop-opacity="0.08"/>
+    <stop offset="1" stop-color="#7ED4FF" stop-opacity="0.22"/>
+  </linearGradient>
+</defs>
+<path d="M24 0H104L128 24V104L104 128H24L0 104V24Z" fill="url(#bg)"/>
+<path d="M24.8 1.5H103.2L126.5 24.8V103.2L103.2 126.5H24.8L1.5 103.2V24.8Z" fill="none" stroke="url(#rim)" stroke-width="2"/>
+<path d="M32 10H96L118 32V96L96 118H32L10 96V32Z" fill="none" stroke="#1C3350" stroke-width="2"/>
+<path d="M27 7H101L121 27V101L101 121H27L7 101V27Z" fill="none" stroke="url(#blue)" stroke-width="5" stroke-linejoin="round"/>
+<path d="M42 25H86L97 36V74L86 85H42L31 74V36Z" fill="#132135" stroke="url(#blue)" stroke-width="3.5" stroke-linejoin="round"/>
+<circle cx="47" cy="41" r="5" fill="#8EDCFF" opacity="0.6"/>
+<path d="M40 68C47 53 56 51 63 58C69 64 77 62 86 48" fill="none" stroke="url(#wave)" stroke-width="6" stroke-linecap="round"/>
+<g transform="translate(66 88) rotate(-36)">
+  <path d="M-24 -6H18L24 0L18 6H-24Z" fill="url(#pencil)"/>
+  <path d="M-24 -6H-19V6H-24C-27.5 6 -30 3.3 -30 0C-30 -3.3 -27.5 -6 -24 -6Z" fill="#2FAFEF"/>
+  <path d="M24 -6L36 0L24 6Z" fill="#EAFBFF"/>
+  <path d="M32 -2L36 0L32 2Z" fill="#122033"/>
+  <path d="M-16 -2.5H16" stroke="#DFF8FF" stroke-width="2.2" stroke-linecap="round" opacity="0.75"/>
+</g>
+</svg>
